@@ -4,7 +4,7 @@ let newText = new Typewriter(textaboutcine, {});
 
 newText
   .pauseFor(500)
-  .changeDelay(35)
+  .changeDelay(20)
   .typeString("Paris 1982,")
   .pauseFor(300)
   .deleteChars(5)
@@ -22,7 +22,7 @@ let textaboutteam = document.querySelector(".textaboutteam");
 let nouveauTex = new Typewriter(textaboutteam, {});
 
 nouveauTex
-  .changeDelay(30)
+  .changeDelay(10)
   .typeString(
     "Nicos (à gauche) est un jeune passionné de technologie et de cinéma, originaire de Paris. Il a toujours été fasciné par l'esthétique et l'ambiance des films des années 80. Nicos est un étudiant déterminé et curieux, toujours avide d'apprendre et de relever de nouveaux défis. Inspiré par sa passion pour les films des années 80 et son amour pour la technologie, il a décidé de concrétiser son rêve en ouvrant un cinéma rétro dédié aux classiques de cette époque.<br>"
   )
