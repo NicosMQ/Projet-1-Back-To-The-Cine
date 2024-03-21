@@ -2,9 +2,8 @@
 body {
   background: linear-gradient(to top, #2d307d, 30%, #090111);
   background-repeat: no-repeat;
-  padding: 5%;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
@@ -15,7 +14,7 @@ a{
 .img-logo {
   width: 300px;
   height: 100px;
-  /* margin-top: 25px; */
+  margin-top: 25px;
 }
 
 .menu {
@@ -56,15 +55,23 @@ h3 {
   display: flex;
   justify-content: space-around;
   margin-top: 2em;
-  margin: 11%;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: 3em;
 }
 .thecine {
-  margin-top: 30px;
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .imagecine {
   width: 50%;
   height: auto;
   margin: 0.7em;
+  border-top: 2px white solid;
+    border-bottom: 2px white solid;
+    border-left: 2px white solid;
+    border-right: 2px white solid
 }
 
 .textaboutcine {
@@ -83,13 +90,19 @@ h3 {
   width: 50%;
   height: auto;
   margin: 0.7em;
+  border-top: 2px white solid;
+    border-bottom: 2px white solid;
+    border-left: 2px white solid;
+    border-right: 2px white solid
 }
 
 .texteETimageTEAM {
-  margin-top: 2em;
   display: flex;
   justify-content: space-around;
-  margin: 11%;
+  margin-top: 2em;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: 3em;
 }
 .textaboutteam {
   font-family: "Jaldi", sans-serif;
@@ -114,6 +127,7 @@ h3 {
   font-family: "Back To The Future", sans-serif;
   font-size: 35px;
   margin-left: 0.7em;
+  margin-bottom: 2%;
 }
 
 .infopratiques {
@@ -133,7 +147,7 @@ h3 {
 }
 
 .information {
-  margin-top: 2em;
+  margin: 2em;
 }
 
 /* FOOTER */
@@ -175,97 +189,90 @@ h3 {
     margin-top: 2em;
     margin: 11%;
     width: 80%;
+  }
 
-    }
-
-  .texteETimageTEAM{
+  .texteETimageTEAM {
     display: flex;
     justify-content: space-around;
     margin: 11%;
     flex-wrap: wrap;
   }
 
-  .imageteam{
+  .imageteam {
     width: 76%;
     height: auto;
     margin: 0.7em;
   }
+}
+
+@media screen and (min-device-width: 402px) and (max-device-width: 570px) {
+  .texteETimage {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    margin: 11%;
+    flex-wrap: wrap;
   }
 
-  @media screen and (min-device-width: 402px) and (max-device-width: 570px){
-    .texteETimage {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 2em;
-      margin: 11%;
-      flex-wrap: wrap;
-    }
-  
-    .imagecine {
-      justify-content: space-around;
-      margin-top: 2em;
-      margin: 11%;
-      width: 90%;
-  
-      }
-      .textaboutcine{
-        width: 20em;
-      }
-  
-    .texteETimageTEAM{
-      display: flex;
-      justify-content: space-around;
-      margin: 11%;
-      flex-wrap: wrap;
-    }
-  
-    .imageteam{
-      width: 90%;
-      height: auto;
-      margin: 0.7em;
-    }
-    .textaboutteam{
-      width: 20em;
-
-    }
-
+  .imagecine {
+    justify-content: space-around;
+    margin-top: 2em;
+    margin: 11%;
+    width: 90%;
+  }
+  .textaboutcine {
+    width: 20em;
   }
 
-  @media screen and (min-device-width: 320px) and (max-device-width: 402px){
-    .texteETimage {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 2em;
-      margin: 11%;
-      flex-wrap: wrap;
-    }
-  
-    .imagecine {
-      justify-content: space-around;
-      margin-top: 2em;
-      margin: 11%;
-      width: 90%;
-  
-      }
-      .textaboutcine{
-        width: 15em;
-      }
-  
-    .texteETimageTEAM{
-      display: flex;
-      justify-content: space-around;
-      margin: 11%;
-      flex-wrap: wrap;
-    }
-  
-    .imageteam{
-      width: 90%;
-      height: auto;
-      margin: 0.7em;
-    }
-    .textaboutteam{
-      width: 15em;
-
-    }
-
+  .texteETimageTEAM {
+    display: flex;
+    justify-content: space-around;
+    margin: 11%;
+    flex-wrap: wrap;
   }
+
+  .imageteam {
+    width: 90%;
+    height: auto;
+    margin: 0.7em;
+  }
+  .textaboutteam {
+    width: 20em;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 402px) {
+  .texteETimage {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    margin: 11%;
+    flex-wrap: wrap;
+  }
+
+  .imagecine {
+    justify-content: space-around;
+    margin-top: 2em;
+    margin: 11%;
+    width: 90%;
+  }
+  .textaboutcine {
+    width: 15em;
+  }
+
+  .texteETimageTEAM {
+    display: flex;
+    justify-content: space-around;
+    margin: 11%;
+    flex-wrap: wrap;
+  }
+
+  .imageteam {
+    width: 90%;
+    height: auto;
+    margin: 0.7em;
+  }
+  .textaboutteam {
+    width: 15em;
+  }
+}
