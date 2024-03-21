@@ -1,0 +1,271 @@
+/*              HEADER  */
+body {
+  background: linear-gradient(to top, #2d307d, 30%, #090111);
+  background-repeat: no-repeat;
+  padding: 5%;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.img-logo {
+  width: 300px;
+  height: 100px;
+  /* margin-top: 25px; */
+}
+
+.menu {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  list-style-type: none;
+  font-family: "Back To The Future", sans-serif;
+  font-size: 40px;
+}
+
+.ligne {
+  border-bottom: 3px solid rgb(255, 255, 255);
+  margin-top: 75px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+/*                          MAIN */
+
+h2 {
+  color: white;
+  list-style-type: none;
+  font-family: "Back To The Future", sans-serif;
+  font-size: 35px;
+  margin-left: 0.7em;
+}
+
+h3 {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 33px;
+  margin-right: 0.7em;
+}
+.texteETimage {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+  margin: 11%;
+}
+.thecine {
+  margin-top: 30px;
+}
+.imagecine {
+  width: 50%;
+  height: auto;
+  margin: 0.7em;
+}
+
+.textaboutcine {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  /* max-width: 20em; */
+  width: 30em;
+  font-size: 17.5px;
+  line-height: 1.2em;
+  margin: 0.7em;
+}
+/*                          THE TEAM */
+.imageteam {
+  width: 50%;
+  height: auto;
+  margin: 0.7em;
+}
+
+.texteETimageTEAM {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
+  margin: 11%;
+}
+.textaboutteam {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  width: 30em;
+  /* max-width: 20em; */
+  font-size: 17.5px;
+  line-height: 1.2em;
+  margin: 0.7em;
+}
+
+.theteam {
+  margin-top: 30px;
+}
+/*                   INFORMATION PRATIQUE  */
+
+.titleinfo {
+  color: white;
+  list-style-type: none;
+  font-family: "Back To The Future", sans-serif;
+  font-size: 35px;
+  margin-left: 0.7em;
+}
+
+.infopratiques {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  width: auto;
+  font-size: 16px;
+  line-height: 1.26em;
+  margin: 0.7em;
+}
+
+.articleapropos {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.information {
+  margin-top: 2em;
+}
+
+/* FOOTER */
+.basDePage {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.logos {
+  width: 24px;
+  height: 24px;
+}
+
+.copyright {
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 13px;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+/*                         MEDIA QUERY */
+
+/* @media screen (min-width: 570px) and (max-width: 900px) */
+@media screen and (min-device-width: 570px) and (max-device-width: 900px) {
+  .texteETimage {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    margin: 11%;
+    flex-wrap: wrap;
+  }
+
+  .imagecine {
+    justify-content: space-around;
+    margin-top: 2em;
+    margin: 11%;
+    width: 80%;
+
+    }
+
+  .texteETimageTEAM{
+    display: flex;
+    justify-content: space-around;
+    margin: 11%;
+    flex-wrap: wrap;
+  }
+
+  .imageteam{
+    width: 76%;
+    height: auto;
+    margin: 0.7em;
+  }
+  }
+
+  @media screen and (min-device-width: 402px) and (max-device-width: 570px){
+    .texteETimage {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2em;
+      margin: 11%;
+      flex-wrap: wrap;
+    }
+  
+    .imagecine {
+      justify-content: space-around;
+      margin-top: 2em;
+      margin: 11%;
+      width: 90%;
+  
+      }
+      .textaboutcine{
+        width: 20em;
+      }
+  
+    .texteETimageTEAM{
+      display: flex;
+      justify-content: space-around;
+      margin: 11%;
+      flex-wrap: wrap;
+    }
+  
+    .imageteam{
+      width: 90%;
+      height: auto;
+      margin: 0.7em;
+    }
+    .textaboutteam{
+      width: 20em;
+
+    }
+
+  }
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 402px){
+    .texteETimage {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2em;
+      margin: 11%;
+      flex-wrap: wrap;
+    }
+  
+    .imagecine {
+      justify-content: space-around;
+      margin-top: 2em;
+      margin: 11%;
+      width: 90%;
+  
+      }
+      .textaboutcine{
+        width: 15em;
+      }
+  
+    .texteETimageTEAM{
+      display: flex;
+      justify-content: space-around;
+      margin: 11%;
+      flex-wrap: wrap;
+    }
+  
+    .imageteam{
+      width: 90%;
+      height: auto;
+      margin: 0.7em;
+    }
+    .textaboutteam{
+      width: 15em;
+
+    }
+
+  }
