@@ -1,36 +1,427 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="les-films.css" type="text/css" media="screen" />
     <link href="https://fonts.cdnfonts.com/css/back-to-the-future" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jaldi&display=swap" rel="stylesheet">    
-    <title>Back To The Cine</title>
-  </head>
-  <body>
-    <header>
-      <a class="logo" href="#">
-        <img class="img-logo" src="/images/back-to-the-cine.png" alt="Logo back to the cine"/>
-      </a>
-      <nav class="menu">
-          <li>LES FILMS</li>
-          <li>LE CINE</li>
-        </ul>
-      </nav>
-      <div class="ligne"></div>
-      
-    </header>
+    <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap" family=Jaldi&display=swap"
+        rel="stylesheet">
 
-    <footer> 
-      <div class="ligne"></div>
-      <ul class="basDePage">
-          <li><img class=logos src="https://cinema-des-cineastes.fr/assets/regular/template_cineastes/img/icon-tw.svg" alt="twitter Cinéma des cineastes"></li>
-          <p class="copyright">© Back To The Cine</p>
-          <li><img class=logos src="https://cinema-des-cineastes.fr/assets/regular/template_cineastes/img/icon-fb.svg" alt="facebook Cinéma des cineastes"></footer> </li>  
-      </ul>
-  </body>
+    <link rel="stylesheet" href="les-films.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="les-films-mobile.css" type="text/css" media="screen and (max-width: 768px)">
+    
+    <title>Back To The Cine</title>
+   
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo" href="#">
+            <img class="img-logo" src="images/back-to-the-cine.png" alt="Logo back to the cine" />
+        </a>
+        <nav class="menu">
+            <a href="#movies">
+            <li>LES FILMS</li>
+            </a>
+            <a href="aboutUs.html">
+            <li>LE CINE</li>
+        </a>
+            </ul>
+        </nav>
+        <div class="ligne"></div>
+    </header>
+    
+    <main>
+        <h1 id="movies">
+            LES FILMS
+        </h1>
+        <section>
+            <article>
+                <div id="ancre-retour" class="descriptif">
+                    <img class="affiche" src="images/retour-future-affiche2.jpeg" alt="poster Retour vers futur">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=cU5BREZ9ke0">
+                        <img class="image" src="images/retour-future-img4.jpeg" txt="Voir la bande-annonce" alt="bande-annonce Retour vers futur">
+                        <img class="icon" src="images/icone camera.png" atl="icone camera">
+                    </a>
+                    
+                    <div class="infos">
+                        <h2>RETOUR VERS LE FUTUR</h2>
+                        <ul>
+                            <li>
+                                <span>De : </span>
+                                ROBERT ZEMECKIS
+                            </li>
+                            <li>
+                                <span>Avec :</span> MICHAEL J. FOX, CHRISTOPHER LLOYD, LEA THOMSON, CRISPIN GLOVER, THOMAS
+                                F. WILSON, CLAUDIA WELSS
+                            </li>
+                            <li>
+                                <span>Durée : </span>
+                                1H56
+                            </li>
+                            <li>
+                                <span>Nationalité :</span>
+                                USA
+                            </li>
+                            <li>
+                                <span>Sortie : </span>
+                                30 OCTOBRE 1985
+                            </li>
+                            <li>
+                                <span>SF/COMEDIE , </span>
+                                VF
+                            </li>
+                        </ul>
+                        <p>
+                            Le jeune Marty McFly mène une existence anonyme, auprès de sa petite amie Jennifer, seulement
+                            troublée par sa famille en crise et un proviseur qui serait ravi de l'expulser du lycée. Ami de
+                            l'excentrique professeur Emmett Brown, il l'accompagne tester sa nouvelle expérience : le voyage
+                            dans le temps via une DeLorean modifiée</p>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=cU5BREZ9ke0">
+                            <p class="an"> << Voir la bande-annonce </p>
+                            </a>
+                            
+                    </div>
+                </div>
+                <ul id="togg1" class="seances">
+                    <li>MERCREDI 17 MARS</li>
+                    <li>JEUDI 17 MARS</li>
+                    <li>VENDREDI 17 MARS</li>
+                    <li>SAMEDI 17 MARS</li>
+                    <li>DIMANCHE 18 MARS</li>
+                    <li>LUNDI 18 MARS</li>
+                    <li>MARDI 19 MARS</li>
+                </ul>
+                <ul id="hi1" class="times">
+                    <li>13 h 35</li>
+                    <li>15 h 45</li>
+                    <li>18 h 00</li>
+                    <li>20 h 20</li>
+                    <li>22 h 40</li>
+                </ul>
+
+            </article>
+
+                <article>
+                    <div id="ancre-shinning" class="descriptif">
+                        <img class="affiche" src="images/shinning-affiche2.jpeg" alt="poster SHINNING">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=7gQNjXJPlzc">
+                            <img class="image" src="images/shinning-img2.webp" alt="bande-annonce Shining">
+                            <img class="icon" src="images/icone camera.png" atl="icone camera">
+                        </a>
+                        
+                        <div class="infos">
+                            <h2>SHINING</h2>
+                            <ul>
+                                <li>
+                                    <span>
+                                        De :
+                                    </span>
+                                    Staneley Kubrick
+                                </li>
+                                <li>
+                                    <span>
+                                        Avec :
+                                    </span>
+                                    Jack Nicholson, Shelley Duvall., Danny Lloyd , Scatman Crothers 
+                                </li>
+                                <li>
+                                    <span>
+                                        Durée :
+                                    </span>
+                                    2h26
+                                </li>
+                                <li>
+                                    <span>
+                                        Nationalité :
+                                    </span>
+                                    USA
+                                </li>
+                                <li>
+                                    <span>
+                                        Sortie :
+                                    </span>
+                                    OCTOBRE 1980
+                                </li>
+                                <li>
+                                    <span>
+                                        HORREUR ,
+                                    </span>
+                                    VF
+                                </li>
+                            </ul>
+                            <p>
+                                Synopsis : Jack Torrance, gardien d'un hôtel fermé l'hiver, sa femme et son fils Danny
+                                s'apprêtent à vivre de longs mois de solitude. Danny, qui possède un don de médium, le Shining,
+                                est effrayé à l'idée d'habiter ce lieu, théâtre marqué par de terribles évènements passés...
+                            </p>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=7gQNjXJPlzc">
+                            <p class="an"> << Voir la bande-annonce </p>
+                            </a>
+                        </div>
+                    </div>
+                    <ul id="togg2" class="seances">
+                        <li>MERCREDI 17 MARS</li>
+                        <li>JEUDI 17 MARS</li>
+                        <li>VENDREDI 17 MARS</li>
+                        <li>SAMEDI 17 MARS</li>
+                        <li>DIMANCHE 18 MARS</li>
+                        <li>LUNDI 18 MARS</li>
+                        <li>MARDI 19 MARS</li>
+                    </ul>
+                    <ul id="hi2" class="times">
+                        <li>14 h 35</li>
+                        <li>16 h 30</li>
+                        <li>18 h 25 </li>
+                        <li>20 h 15</li>
+                        <li>22 h 20</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <div id="ancre-topgun" class="descriptif">
+                        <img class="affiche" src="images/topgunaff2.jpeg" alt="poster Top Gun">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=i8sEGppZX-s">
+                            <img class="image" src="images/topgunimg.jpeg" alt="bande-annonce Top Gun">
+                            <img class="icon" src="images/icone camera.png" atl="icone camera">   
+                        </a>
+                         
+                        <div class="infos">
+                            <h2>TOP GUN</h2>
+                            <ul>
+                                <li>
+                                    <span>
+                                        De :
+                                    </span>
+                                    Tony Scott
+                                </li>
+                                <li>
+                                    <span>
+                                        Avec :
+                                    </span>
+                                    Tom Cruise, Kelly McGillis , Anthony Edwards, Meg Ryan 
+                                </li>
+                                <li>
+                                    <span>
+                                        Durée :
+                                    </span>
+                                    1h40
+                                </li>
+                                <li>
+                                    <span>
+                                        Nationalité :
+                                    </span>
+                                    USA
+                                </li>
+                                <li>
+                                    <span>
+                                        Sortie :
+                                    </span>
+                                    SEPTEMBRE 1986
+                                </li>
+                                <li>
+                                    <span>
+                                        ACTION/ROMANCE,
+                                    </span>
+                                    VF
+                                </li>
+                            </ul>
+                            <p class="syno">
+                                Synopsis : JPete Maverick Mitchell, un jeune prodige du pilotage peu apprécié par sa hiérarchie,
+                                rejoint la très réputée école de l'aéronavale américaine, Top Gun, pour perfectionner ses
+                                techniques de combat aérien. Tous les étudiants concourent pour le titre de meilleur pilote.
+                            </p>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=i8sEGppZX-s">
+                            <p class="an"> << Voir la bande-annonce </p>
+                            </a>
+                        </div>
+                    </div>
+                    <ul id="togg3" class="seances">
+                        <li>MERCREDI 17 MARS</li>
+                        <li>JEUDI 17 MARS</li>
+                        <li>VENDREDI 17 MARS</li>
+                        <li>SAMEDI 17 MARS</li>
+                        <li>DIMANCHE 18 MARS</li>
+                        <li>LUNDI 18 MARS</li>
+                        <li>MARDI 19 MARS</li>
+                    </ul>
+                    <ul id="hi3" class="times">
+                        <li>16 h 05</li>
+                        <li>18 h 10</li>
+                        <li>20 h 15 </li>
+                        <li>22 h 30</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <div id="ancre-noel" class="descriptif">
+                        <img class="affiche" src="images/perenoelaffiche2.jpeg" alt="poster Le Père Noël Est Une Ordure">
+                        <a target="_blank" href="https://www.youtube.com/watch?v=cm8Bk3TbSnQ">
+                            <img class="image" src="images/perenoelimg2.jpeg" alt="bande-annonce Le Père Noël Est Une Ordure">
+                            <img class="icon" src="images/icone camera.png" atl="icone camera">
+                        </a>
+                        
+                        <div class="infos">
+                            <h2>LE PERE NOEL EST UNE ORDURE </h2>
+                            <ul>
+                                <li>
+                                    <span>
+                                        De :
+                                    </span>
+                                    JEAN-MARIE POIRE
+                                </li>
+                                <li>
+                                    <span>
+                                        Avec :
+                                    </span>
+                                    Anémone , Thierry Lhermitte, Marie-Anne Chazel, Gérard Jugnot
+                                </li>
+                                <li>
+                                    <span>
+                                        Durée :
+                                    </span>
+                                    1h28
+                                </li>
+                                <li>
+                                    <span>
+                                        Nationalité :
+                                    </span>
+                                    FRANCE
+                                </li>
+                                <li>
+                                    <span>
+                                        Sortie :
+                                    </span>
+                                    AOUT 1982
+                                </li>
+                                <li>
+                                    <span>
+                                        Comédie,
+                                    </span>
+                                    VO
+                                </li>
+                                <p class="syno">
+                                    synopsis : Le soir de Noël, dans un petit appartement qui leur sert de local, Pierre et
+                                    Thérèse s'apprêtent à assurer la permanence de SOS-détresse-amitié. Ils reçoivent la visite
+                                    de Josette, une jeune clocharde qui vient de quitter son ami Félix.
+                                </p>
+                                <a target="_blank" href="https://www.youtube.com/watch?v=cm8Bk3TbSnQ">
+                                <p class="an"> << Voir la bande-annonce </p>
+                                </a>
+                            </div>
+                        </div>
+                        <ul id="togg4" class="seances">
+                            <li>MERCREDI 17 MARS</li>
+                            <li>JEUDI 17 MARS</li>
+                            <li>VENDREDI 17 MARS</li>
+                            <li>SAMEDI 17 MARS</li>
+                            <li>DIMANCHE 18 MARS</li>
+                            <li>LUNDI 18 MARS</li>
+                            <li>MARDI 19 MARS</li>
+                        </ul>
+                        <ul id="hi4" class="times">
+                            <li>13 h 20</li>
+                            <li>15 h 00</li>
+                            <li>16 h 40 </li>
+                            <li>18 h 20</li>
+                            <li>20 h 00</li>
+                        </ul>
+                    </article>
+
+                    <article>
+                        <div id="ancre-claudel" class="descriptif">
+                            <img class="affiche" src="images/camilleclaudelaffiche2.webp" alt="poster Camille Claudel">
+        
+                            <a target="_blank" href="https://www.youtube.com/watch?v=sfPvcvDQXLM&t=1s">
+                                <img class="image" src="images/camilleclaudelimg5.webp" alt="bande-annonce Camille Claudel">
+                                <img class="icon" src="images/icone camera.png" atl="icone camera">
+                            </a>
+                            
+                            <div class="infos">
+                                <h2>CAMILLE CLAUDEL</h2>
+                                <ul>
+                                    <li>
+                                        <span>
+                                            De :
+                                        </span>
+                                        BRUNO NUYYTEN
+                                    </li>
+                                    <li>
+                                        <span>
+                                            Avec :
+                                        </span>
+                                        Isabelle Adjani, Gérard Depardieu, Laurent Grévill, Alain Cuny
+                                    </li>
+                                    <li>
+                                        <span>
+                                            Durée :
+                                        </span>
+                                        2h55
+                                    </li>
+                                    <li>
+                                        <span>
+                                            Nationalité :
+                                        </span>
+                                        FRANCE
+                                    </li>
+                                    <li>
+                                        <span>
+                                            Sortie :
+                                        </span>
+                                        DECEMBRE 1988
+                                    </li>
+                                    <li>
+                                        <span>
+                                            Romance/Drame,
+                                        </span>
+                                        VO
+                                    </li>
+                                </ul>
+                                <p class="syno">
+                                    Synopsis : Le talent et l'ambition de la sculptrice française Camille Claudel attirent
+                                    l'attention du célèbre Auguste Rodin qui l'engage dans son atelier.
+                                </p>
+                                <a target="_blank" href="https://www.youtube.com/watch?v=sfPvcvDQXLM&t=1s">
+                                <p class="an"> << Voir la bande-annonce </p>
+                                </a>
+                                </div>
+                            </div>
+                            <ul id="togg5" class="seances">
+                                <li>MERCREDI 17 MARS</li>
+                                <li>JEUDI 17 MARS</li>
+                                <li>VENDREDI 17 MARS</li>
+                                <li>SAMEDI 17 MARS</li>
+                                <li>DIMANCHE 18 MARS</li>
+                                <li>LUNDI 18 MARS</li>
+                                <li>MARDI 19 MARS</li>
+                            </ul>
+                            <ul id="hi5" class="times">
+                                <li>14 h 00</li>
+                                <li>16 h 10</li>
+                                <li>18 h 20 </li>
+                                <li>20 h 30</li>
+                            </ul>
+                        </article>
+                    </main> 
+    
+    
+    <footer>
+        <div class="ligne"></div>
+        <ul class="basDePage">
+            <li><img class=logos src="https://cinema-des-cineastes.fr/assets/regular/template_cineastes/img/icon-tw.svg"
+                    alt="twitter Cinéma des cineastes"></li>
+            <p class="copyright">© Back To The Cine</p>
+            <li><img class=logos src="https://cinema-des-cineastes.fr/assets/regular/template_cineastes/img/icon-fb.svg"
+                    alt="facebook Cinéma des cineastes"> </li>
+        </ul>
+        <script src="les-films.js"></script>
+    </footer>
+</body>
+
 </html>
