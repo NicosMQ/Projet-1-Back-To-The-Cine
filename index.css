@@ -1,0 +1,187 @@
+body {
+  background: linear-gradient(to top, #2d307d, 30%, #090111);
+  background-repeat: no-repeat;
+  padding: 5%;
+}
+
+/*  HEADER NAV  */
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.img-logo {
+  width: 300px;
+  height: 100px;
+  margin-top: 25px;
+}
+
+.menu {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Back To The Future", sans-serif;
+  font-size: 40px;
+  list-style-type: none;
+  color: white;
+}
+
+.ligne {
+  border-bottom: 3px solid rgb(255, 255, 255);
+  margin-top: 75px;
+  margin-bottom: 30px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*  MAIN  */
+
+hr {
+  border: none;
+  border-left: 0, 5px solid hsla(200, 10%, 50%, 100);
+  height: 250px;
+  width: 1px;
+  background-color: rgb(50, 94, 22);
+}
+.titre-moment {
+  display: flex;
+  justify-content: center;
+}
+h3,
+h4 {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  display: flex;
+  font-size: 15px;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-family: "Jaldi", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  color: white;
+  display: flex;
+  width: 271px;
+  height: 100px;
+}
+
+.txt {
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin-left: 5px;
+}
+.block-film {
+  margin-top: 30px;
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+}
+img.film-img {
+  /*
+  width: 200px;
+  height: 260px;
+  */
+  width: 90%;
+}
+
+img.logo-age {
+  width: 17px;
+  height: 17px;
+}
+
+.block-anecdote {
+  margin-top: 30px;
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+}
+.titre-moment {
+  color: white;
+  list-style-type: none;
+  font-family: "Back To The Future", sans-serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-start;
+  ;
+}
+
+.titre-anecdote {
+  color: white;
+  list-style-type: none;
+  font-family: "Back To The Future", sans-serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+img.anecdote-img {
+  width: 270px;
+  height: 151px;
+}
+
+/* FOOTER */
+.basDePage {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.logos {
+  width: 24px;
+  height: 24px;
+}
+
+.copyright {
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 13px;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+/* حلال */
+
+@media screen and (max-width: 1177px) {
+  .block-film {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .block-anecdote {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+.film {
+  width: 200px;
+  height: 351px;
+}
+
+.film:hover {
+  width: 220px;
+  height: 380px;
+  transition-duration: 0.3s;
+}
