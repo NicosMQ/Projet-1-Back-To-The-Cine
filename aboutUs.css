@@ -85,6 +85,11 @@ h3 {
   line-height: 1.2em;
   margin: 0.7em;
 }
+
+.texteresponsivecine{
+
+  display: none;
+}
 /*                          THE TEAM */
 .imageteam {
   width: 50%;
@@ -118,6 +123,9 @@ h3 {
 
 .theteam {
   margin-top: 30px;
+}
+.texteresponsiveteam{
+  display: none;
 }
 /*                   INFORMATION PRATIQUE  */
 
@@ -203,9 +211,42 @@ h3 {
     height: auto;
     margin: 0.7em;
   }
+  /* TEXTE VISIBLE VERSION MOBILE GRAND  */
+
+  .texteresponsivecine{
+    display: block;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    width: 30em;
+    font-size: 17.5px;
+    line-height: 1.2em;
+    margin: 0.7em;
+    display: block;
+} 
+.texteresponsiveteam{
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  width: 30em;
+  font-size: 17.5px;
+  line-height: 1.2em;
+  margin: 0.7em;
+  display: block;
+}
+/* TEXTE CACHE POUR VERSION MOBILE GRAND  */
+
+.textaboutcine{
+    display: none;
+  }
+  .textaboutteam{
+    display: none;
+  }
 }
 
-@media screen and (min-device-width: 402px) and (max-device-width: 570px) {
+@media screen and (min-device-width: 402px) and (max-device-width: 569px) {
   .texteETimage {
     display: flex;
     justify-content: space-around;
@@ -220,8 +261,79 @@ h3 {
     margin: 11%;
     width: 90%;
   }
-  .textaboutcine {
+  /* .textaboutcine {
     width: 20em;
+  } */
+
+  .texteETimageTEAM {
+    display: flex;
+    justify-content: space-around;
+    margin: 11%;
+    flex-wrap: wrap;
+  }
+
+  .imageteam {
+    width: 90%;
+    height: auto;
+    margin: 0.7em;
+  }
+  /* .textaboutteam {
+    width: 20em;
+  } */
+
+  /* TEXTE VISIBLE VERSION MOBILE MOYEN  */
+
+  .texteresponsivecine{
+    font-family: "Jaldi", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    width: 20em;
+    font-size: 17.5px;
+    line-height: 1.2em;
+    margin: 0.7em;
+    width: 20em;
+    display: block;
+} 
+
+.texteresponsiveteam{
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  width: 20em;
+  font-size: 17.5px;
+  line-height: 1.2em;
+  margin: 0.7em;
+  display: block;
+}
+/* TEXTE CACHE POUR VERSION MOBILE MOYEN  */
+
+.textaboutcine{
+    display: none;
+  }
+  .textaboutteam{
+    display: none;
+  }
+}
+
+
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 401px) {
+  .texteETimage {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    margin: 11%;
+    flex-wrap: wrap;
+  }
+
+  .imagecine {
+    justify-content: space-around;
+    margin-top: 2em;
+    margin: 11%;
+    width: 90%;
   }
 
   .texteETimageTEAM {
@@ -237,42 +349,41 @@ h3 {
     margin: 0.7em;
   }
   .textaboutteam {
-    width: 20em;
+    width: 15em;
   }
+
+                        /* TEXTE VISIBLE POUR VERSION MOBILE PETIT */
+.texteresponsivecine{
+  display: block;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 17.5px;
+  line-height: 1.2em;
+  margin: 0.7em;
+  width: 15em;
+}
+.texteresponsiveteam{
+  display: block;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  width: 15em;
+  font-size: 17.5px;
+  line-height: 1.2em;
+  margin: 0.7em;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 402px) {
-  .texteETimage {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2em;
-    margin: 11%;
-    flex-wrap: wrap;
-  }
 
-  .imagecine {
-    justify-content: space-around;
-    margin-top: 2em;
-    margin: 11%;
-    width: 90%;
-  }
-  .textaboutcine {
-    width: 15em;
-  }
+                         /* TEXTE CACHE POUR VERSION MOBILE PETIT */
 
-  .texteETimageTEAM {
-    display: flex;
-    justify-content: space-around;
-    margin: 11%;
-    flex-wrap: wrap;
-  }
+  .textaboutcine{
 
-  .imageteam {
-    width: 90%;
-    height: auto;
-    margin: 0.7em;
+    display: none;
   }
-  .textaboutteam {
-    width: 15em;
+  .textaboutteam{
+    display: none;
   }
 }
