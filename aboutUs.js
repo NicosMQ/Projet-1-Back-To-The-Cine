@@ -34,17 +34,4 @@ nouveauTex
   .pauseFor(1000)
   .start();
 
-//                  INFO PRATIQUES
 
-// let infopratiques = document.querySelector(".infopratiques");
-
-// let dernierText = new Typewriter(infopratiques, {});
-
-// dernierText
-//   .pauseFor(500)
-//   .changeDelay(2)
-//   .typeString(
-//     " Cinéma Back To the Cine <br><br>📍 Adresse : 17 Rue des Archives, 75003 Paris<br>📞 Téléphone : +33 1 23 45 67 89<br>🌐 Site Web : www.cinemaretro80.paris<br><br>🚇 Accès : Le cinéma est facilement accessible en métro, avec les stations les plus proches étant 'Hôtel de Ville' (ligne 1) et 'Rambuteau' (ligne 11).<br>🅿️ Parking : Un parking public est disponible à proximité pour les visiteurs arrivant en voiture.<br><br> 🕒 Horaires d'ouverture :<br> Lundi à jeudi : 14h00 - 22h00<br> Vendredi à dimanche : 12h00 - 00h00<br><br> 🎟️ Tarifs :<br>Adultes : 100€</br> Étudiants et moins de 18 ans : 80€.<br>Enfants de moins de 12 ans : 60€.<br> Tarif réduit (wilders seniors, wilders handicapées) : 80€<br> Carte d'abonnement mensuelle (accès illimité) : 250€<br><br> 🍿 Snacks et boissons : Une variété de snacks, boissons et confiseries est disponible à la vente dans le hall du cinéma. (حلال)<br><br> 💺 Salles : Le cinéma dispose de trois salles de projection équipées de sièges confortables en cuir, offrant une capacité totale de 150 places.<br><br>📧 Contact : Pour toute question ou réservation, n'hésitez pas à nous contacter par téléphone ou par e-mail à l'adresse contact@backtothecine.wild<br><br>Nous espérons vous accueillir bientôt pour une expérience cinématographique immersive dans l'ambiance des années 80 au Cinéma Rétro 80 ! 🍿🎥"
-//   )
-//   .pauseFor(1000)
-//   .start();

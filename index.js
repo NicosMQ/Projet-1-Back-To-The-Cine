@@ -36,7 +36,7 @@ const CamilleDivId = document.querySelector('#filmTroisTest');
 
 CamilleDivId.addEventListener('mouseover', function(){
 
-    CamilleDivId.src = "images/Camille Claudel 2 .jpg"
+    CamilleDivId.src = "images/camille claude 2-1.jpg"
 });
 
 const CamilleDiv1Id = document.querySelector('#filmTroisTest');
